@@ -1,0 +1,40 @@
+# Dependencies (Jangan pernah di-upload ke GitHub, otomatis di-install oleh Vercel/Netlify/GitHub)
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js Build Output & Cache (Berukuran >100MB, dibuat otomatis saat build)
+/.next/
+/out/
+/build
+
+# Production & Misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local Env files
+.env
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# File referensi mentah awal (tidak diperlukan oleh aplikasi Next.js)
+/*.zip
+/index.html
